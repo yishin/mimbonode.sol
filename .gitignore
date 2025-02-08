@@ -1,0 +1,50 @@
+# 의존성 디렉토리
+node_modules
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 하드햇 파일들
+cache
+artifacts
+typechain
+typechain-types
+
+# 배포 관련 파일
+deployments
+
+# IDE 설정 파일
+.vscode
+.idea
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 커버리지 리포트
+coverage
+coverage.json
+
+# gas 리포트
+gas-report.txt
+
+# 빌드 결과물
+dist
+build
+
+# 임시 파일들
+temp
+tmp 
