@@ -22,7 +22,7 @@ typechain-types
 deployments
 
 # IDE 설정 파일
-.vscode
+#.vscode
 .idea
 *.swp
 *.swo

@@ -9,14 +9,14 @@ async function main() {
   // 네트워크에 따라 다른 컨트랙트 배포
   let TokenContract;
   if (network.name === "mainnet") {
-    TokenContract = await ethers.getContractFactory("MIMGToken");
-    console.log("Deploying MIMG Token...");
+    TokenContract = await ethers.getContractFactory("MGGToken");
+    console.log("Deploying MGG Token...");
   } else if (network.name === "qa") {
     TokenContract = await ethers.getContractFactory("MGToken");
     console.log("Deploying MG QA Token...");
   } else if (network.name === "testnet") {
-    TokenContract = await ethers.getContractFactory("MIMGToken");
-    console.log("Deploying MIMG Token on Testnet...");
+    TokenContract = await ethers.getContractFactory("MGGToken");
+    console.log("Deploying MGG Token on Testnet...");
   } else {
     throw new Error("Invalid network");
   }

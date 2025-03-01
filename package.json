@@ -1,7 +1,7 @@
 {
-  "name": "mimg-token",
+  "name": "mgg-token",
   "version": "1.0.0",
-  "description": "MIMG Token",
+  "description": "MGG Token",
   "license": "ISC",
   "scripts": {
     "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet",
